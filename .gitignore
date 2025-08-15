@@ -1,0 +1,43 @@
+# =================================================
+# General build files and logs
+# =================================================
+target/
+*.log
+.DS_Store
+Thumbs.db
+
+# =================================================
+# IDE Files - Ignored to avoid user-specific settings in repo
+# =================================================
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# =================================================
+# Maven - Keep the wrapper, ignore other local repo files
+# =================================================
+# This ensures the Maven wrapper is always included in the repository
+!.mvn/wrapper/maven-wrapper.jar
